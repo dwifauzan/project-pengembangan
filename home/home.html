@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kenangan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-bolder" href="#">SMKN 1 BONDOWOSO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body fw-bold fs-3">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Album Siswa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kenangan">Event Sekolah</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Lebih Lanjut
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#jurusan">jurusan apa saja</a></li>
+                <li><a class="dropdown-item" href="#">Gedung/Lab</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end -->
+
+  <!-- center page -->
+  <div class="container" style="height: 100vh;">
+    <div class="row">
+      <div class="col d-flex align-items-start justify-content-center flex-column flex-wrap"
+      style="margin-top: 40vh; color:aliceblue;">
+        <h1 class="fw-bolder lh-base fs-1">Selamat Datang di Website <br>Dimana anak berprestasi lahir dinisi <br>Smk 1 Bondowoso</h1>
+        <button type="button" class="btn btn-warning" onclick="aksiDark()">Button Dark-mode</button>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+  <main id="main">
+    <div class="memory" id="about">
+      <h1>Album Kenangan</h1>
+    </div>
+    <!-- isi -->
+    <div class="container-fluid">
+      <div class="row" style="margin: 2vh; gap: 5vh; display: flex; justify-content: center; align-items: center;">
+        <div class="card card-animate" style="width: 30rem; border: none">
+          <img src="../imageHomePage/gambar1.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card card-animate" style="width: 30rem; border: none">
+          <img src="../imageHomePage/gambar2.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card card-animate" style="width: 30rem; border: none">
+          <img src="../imageHomePage/gambar3.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card card-animate" style="width: 30rem; border: none">
+          <img src="../imageHomePage/gambar5.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card card-animate" style="width: 30rem; border: none">
+          <img src="../imageHomePage/gambar6.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card card-animate" style="width: 30rem; border: none">
+          <img src="../imageHomePage/gambar7.jpg" class="card-img-top" alt="...">
+        </div>
+        
+      </div>
+    </div>
+    <!--  -->
+
+    <div class="memory" id="kenangan" style="margin-top: 35vh;">
+      <h1>Kegiatan di SMKN 1 Bondowoso</h1>
+    </div>
+
+    <div class="container">
+      <div class="row" style="display: flex; justify-content: center; align-items: center; margin: 5vh; gap: 5vh;">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://img.freepik.com/free-vector/vintage-sumpah-pemuda-concept_52683-46482.jpg?w=740&t=st=1699068939~exp=1699069539~hmac=74d1309e24251453f7904564f96d2e65b8b64b39091294e597c49a5de2d7db4f" class="img-fluid rounded-start" alt="..." style="margin: 1vh; padding: 1vh">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">Sumpah Pemuda</h5>
+                <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://img.freepik.com/free-photo/hands-writing-calculations-desktop-with-notebooks_23-2147844737.jpg?w=740&t=st=1699069106~exp=1699069706~hmac=81ac974d69a2f065a2aca4ab710c5ba21e37229f11721cc9bc691a1859656568" class="img-fluid rounded-start" alt="..." style="padding: 1vh;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">Uji Skema 2023</h5>
+                <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://img.freepik.com/free-photo/english-book-resting-table-working-space_23-2149429628.jpg?w=740&t=st=1699069047~exp=1699069647~hmac=ef868d367029a7d69546c28d3bda835f387aaa2745e9d72c6b9343ec467d02e9" class="img-fluid rounded-start" alt="..." style="padding: 10px;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">Kurikulum Merdeka</h5>
+                <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://img.freepik.com/free-vector/flat-vertical-poster-template-indonesia-independence-day-celebration_23-2150610505.jpg?w=740&t=st=1699068857~exp=1699069457~hmac=36f201e4beba4c0ff62d20758c7aec0c217f8c6f0e827c12fe9781ddac7249e3" class="img-fluid rounded-start" alt="..." style="padding: 1vh;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">Lomba Agustus</h5>
+                <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://img.freepik.com/free-vector/flat-vertical-flyer-template-back-school-season_23-2150540193.jpg?w=740&t=st=1699069201~exp=1699069801~hmac=58332ced9f161e32685d948dee0332ee3271b998e45803c888d7a6b2dac80bf4" class="img-fluid rounded-start" alt="..." style="padding: 1vh;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">Pelaksanaan PPDB</h5>
+                <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://img.freepik.com/free-photo/non-hazardous-waste-nature-paper_23-2148764833.jpg?w=740&t=st=1699069280~exp=1699069880~hmac=ebe536d7eb64955d819104ca5254608cb574309852abf456e8c17178adb2565d" class="img-fluid rounded-start" alt="..." style="padding: 1vh;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">Kegiatan P5</h5>
+                <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jurusan -->
+    <div class="container" style="margin-top: 25vh;">
+      <h1 class="fw-bold text-center" id="jurusan">Jurusan</h1>
+      <br>
+      <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 fw-bold fs-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/yZ5ZCtw3asf2YAYnif1Nxhf0xx8zXQ49uf2J3jAK.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">DKV</h5>
+                <p class="card-text">Desain Komunikasi Visual</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/9aWtoO9nSkrPF2nWp0ciBsbXP1EJRzRNrOXwiOvQ.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">RPL</h5>
+                <p class="card-text">Rekayasa Perangkat Lunak</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 minute ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/TD6kyjkeaDNz2cVxzTKJAa0RVTiK5qX9qXb2Vk75.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">TKJ</h5>
+                <p class="card-text">Teknik Komunikasi dan Jaringan</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 fs-4" style="margin-top: 5vh;">
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/bg3FK7fPVjPhnOFdq7rWFG9CWFikmArRrvwN1ghF.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">PSPTV</h5>
+                <p class="card-text">Produk Siaran Program Televisi</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/QsPaNhT9oHLYXDu0i39DYz65eFQQJqoT0AoEry4c.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">LP & PKM</h5>
+                <p class="card-text">Layanan Perbankan & Perbankan dan Keuangan Mikro</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/KVz0CV8g3DgTeZoSZQvOr2VQk38xQCR5hv2EZg13.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">BD & BDP</h5>
+                <p class="card-text">Bisnis Digital & Bisnis Daring dan Pemasaran</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 fs-4" style="margin-top: 5vh;">
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/tEZApavqRQF76hhr8WgU0abvot7A47Wy49H4noTh.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">MP & OTKP</h5>
+                <p class="card-text">Manajemen dan Perkantoran & Otomisasi dan Tata Kelola Perkantoran</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/DPTWgLubgk7gSyd8zehdpDn3A0dog8QLG7c8Ckev.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">AK & AKL</h5>
+                <p class="card-text">Akuntansi Keuangan & Akuntansi dan Keuangan Lembaga</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 5 minute ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="../image/6jBRpegvodyAjMtrO9V9TrfjqRvvNe4MIQnbig7l.png" class="card-img-top" alt="..." style="margin-top: 20vh;">
+              <div class="card-body">
+                <h5 class="card-title fs-2 fw-bold">PF</h5>
+                <p class="card-text">Produksi Film</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </main> 
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center" style="margin-top: 25vh;">Support By</h1>
+      </div>
+      <div class="row justify-content-center" style="margin-top: 5vh;">
+        <div class="col-md-2 flex-wrap d-flex align-items-center" style="gap: 1vh;">
+          <h4>Bootstrap</h4>
+          <i class="fa-brands fa-bootstrap" style="font-size: 3rem;"></i>
+        </div>
+        <div class="col-md-2 flex-wrap d-flex align-items-center" style="gap: 1vh;">
+          <h4>Github</h4>
+          <i class="fa-brands fa-square-github" style="font-size: 3rem;"></i>
+        </div>
+        <div class="col-md-2 flex-wrap d-flex align-items-center" style="gap: 1vh;">
+          <h4>Spotify</h4>
+          <i class="fa-brands fa-spotify fa-flip-horizontal" style="font-size: 3rem;"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+      ScrollReveal().reveal('.card-animate' , {delay: 50});
+      ScrollReveal().reveal('.card-animate2' , {delay: 100});
+      ScrollReveal().reveal('.card-animate3' , {delay: 150});
+      ScrollReveal().reveal('.card-animate4' , {delay: 200});
+      ScrollReveal().reveal('.card-animate5' , {delay: 250});
+      ScrollReveal().reveal('.card-animate6' , {delay: 300});
+      ScrollReveal().reveal('.card-animate7' , {delay: 350});
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html>
