@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background: url(../imageHomePage/ingambar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+:root{
+    --btn-primary: #F99417;
+    --btn-secondary: #FFCD4B;
+    --bg-primary: #EEEEEE;
+    --bg-secondary: #213555;
+}
+
+@keyframes animasiText {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animasiText2{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+/* main */
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.memory h1{
+    padding: 1em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    animation-name: animasiText2;
+    animation-duration: 1.5s;
+}
+/* footer */
+
+footer{
+    background-color: white;
+}
+/* dark mode */
+
+.dark-mode{
+    background-color: #0F0F0F;
+    color: white;
+}
