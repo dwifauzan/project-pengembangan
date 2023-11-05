@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background: url(../imageHomePage/ingambar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+:root[data-theme= "light"]{
+    --btn-primary: #F99417;
+    --btn-secondary: #ffffff;
+    --bg-primary: #EEEEEE;
+    --bg-secondary: #213555;
+    --text-primary: #222;
+}
+
+:root[data-theme= "dark"]{
+    --btn-primary: #F99417;
+    --btn-secondary: #29251a;
+    --bg-primary: #1b1919;
+    --bg-secondary: #202731;
+    --text-primary: #f5f6f5;
+}
+
+@keyframes animasiText {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animasiText2{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.theme-switcher{
+    padding: 5vh;
+    cursor: pointer;
+}
+
+.icon{
+    border-radius: 2.22rem;
+    background-color: var(--btn-secondary);
+    transition: transform .4s, ease-in-out .3s, background-color .3s, box-shadow .3s;
+    padding: 2em;
+}
+
+.icon:hover{
+    transform: translateY(-5px);
+    box-shadow: 7px 7px 60px rgba(0, 0, 0, .5);
+}
+
+/* main */
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-primary);
+}
+
+.memory h1{
+    padding: 1em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    animation-name: animasiText2;
+    animation-duration: 1.5s;
+}
+
+.text1{
+    color: var(--text-primary);
+}
+/* footer */
+.endtext{
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    background-color: var(--bg-primary);
+}
